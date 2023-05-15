@@ -18,10 +18,11 @@ function App() {
     <React.Fragment>
       {showEventModal && <EventModal />}
 
-      <div className="h-screen flex flex-col">
+      {/* <div className="h-screen flex flex-col"> */}
+      <div className="main">
         <CalendarHeader />
         <div className="flex flex-1">
-          <Sidebar />
+          {/* <Sidebar /> */}
           <Month month={currenMonth} />
         </div>
       </div>
