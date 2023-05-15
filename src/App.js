@@ -21,9 +21,9 @@ function App() {
       {/* <div className="h-screen flex flex-col"> */}
       <div className="main">
         <CalendarHeader />
-        <div className="flex flex-1">
+        <div className="flex flex-1 ">
           {/* <Sidebar /> */}
-          <Month month={currenMonth} />
+          <Month  month={currenMonth} />
         </div>
       </div>
     </React.Fragment>

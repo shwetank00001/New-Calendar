@@ -26,11 +26,17 @@ module.exports = {
       },
       gridTemplateColumns: {
         "1/5": "1fr 5fr"
-      }
+      },
+      colors : {
+        'midnight': '#121063'
+      },
     },
+
+
   },
   variants: {
     extend: {},
   },
+
   plugins: [require("@tailwindcss/forms")],
 }
